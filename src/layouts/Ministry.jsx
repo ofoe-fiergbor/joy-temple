@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import Heading from "./../components/heading/Heading";
+import Header from "../components/header/Header";
 
 function Ministry({
   bodyTitle,
@@ -11,12 +11,7 @@ function Ministry({
 }) {
   return (
     <div>
-      <div
-        className="parralex ministryHeaderContainer"
-        style={{ backgroundImage: `url(${headerBg})` }}
-      >
-        <Heading text={headerText} />
-      </div>
+      <Header headerBg={headerBg} text={headerText} />
 
       <Container>
         <Row className="sectionTitle">

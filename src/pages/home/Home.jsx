@@ -8,7 +8,7 @@ function Home() {
     <div className="homeContainer">
       <CarouselComp />
       <Service />
-      <div className="homeParralexBGImg parralex"></div>
+      <div className="homeParralexBGImg parralex" />
       <Tabs />
     </div>
   );
