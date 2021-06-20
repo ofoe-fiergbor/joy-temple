@@ -27,7 +27,7 @@ function Leadership() {
         <CardDeck style={{ width: "80%", marginLeft: "10%", paddingTop: "5%" }}>
           {leaders.map(({ img, name, position }, index) => (
             <Card key={index} style={{ marginLeft: "5%", marginRight: "5%" }}>
-              <Card.Img variant="top" src={profileImg} />
+              <Card.Img variant="top" src={img} />
               <Card.Body>
                 <Card.Title>{name}</Card.Title>
               </Card.Body>

@@ -1,18 +1,12 @@
 import React from "react";
-import {
-  Navbar,
-  NavDropdown,
-  Nav,
- 
-} from "react-bootstrap";
+import { Navbar, NavDropdown, Nav } from "react-bootstrap";
 import logo from "../../assets/png/icgc_logo.jpg";
 import { Link } from "react-router-dom";
 import "./styles.css";
 
-
 function NavBar() {
   return (
-    <Navbar className='px-5' bg="light" expand="lg">
+    <Navbar className="px-5" bg="light" expand="lg">
       <Navbar.Brand as={Link} to="/">
         <img
           alt=""
@@ -29,15 +23,23 @@ function NavBar() {
           <Nav.Link as={Link} to="about">
             About
           </Nav.Link>
+          <Nav.Link as={Link} to="leadership">
+            Leadership
+          </Nav.Link>
+          <NavDropdown title="Ministries" id="basic-nav-dropdown">
+            <NavDropdown.Item as={Link} to="men">
+              Men
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="women">
+              Women
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="youth">
+              Youth
+            </NavDropdown.Item>
+          </NavDropdown>
           <Nav.Link as={Link} to="contact">
             Contact
           </Nav.Link>
-          <NavDropdown title="Ministries" id="basic-nav-dropdown">
-            <NavDropdown.Item as={Link} to="men">Men</NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="women">Women</NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="youth">Youth</NavDropdown.Item>
-            
-          </NavDropdown>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
