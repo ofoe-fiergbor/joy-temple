@@ -1,7 +1,12 @@
-import Main from "./pages";
+import React from 'react';
+import Root from './navigation/Root';
 
 function App() {
-  return <Main />;
+  return (
+    <div>
+      <Root/>
+    </div>
+  );
 }
 
 export default App;

@@ -1,14 +1,28 @@
 import React from "react";
-import Heading from "../heading/Heading";
 
-function Header({ headerBg, text }) {
+function Header() {
   return (
-    <div
-      className="parralex ministryHeaderContainer"
-      style={{ backgroundImage: `url(${headerBg})` }}
-    >
-      <Heading text={text} />
-    </div>
+    <header id="header">
+      <div className="intro">
+        <div className="overlay">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-8 col-md-offset-2 intro-text">
+                <h1>
+                  The Joy Temple
+                </h1>
+                <p>
+                  The International Central Gospel Church – ICGC – is an
+                  Evangelical, Charismatic Christian Church.
+                </p>
+
+                {/* <i className="fa fa-play" aria-hidden="true"></i> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 }
 

@@ -1,49 +1,73 @@
 import React from "react";
-import { Navbar, NavDropdown, Nav } from "react-bootstrap";
-import logo from "../../assets/png/icgc_logo.jpg";
-import { Link } from "react-router-dom";
-import "./styles.css";
+import logo from "../../assets/png/icgc_logo.png";
 
-function NavBar() {
+function Navbar() {
   return (
-    <Navbar className="px-5" bg="light" expand="lg">
-      <Navbar.Brand as={Link} to="/">
-        <img
-          alt=""
-          src={logo}
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-        />{" "}
-        Joy Temple
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
-          <Nav.Link as={Link} to="about">
-            About
-          </Nav.Link>
-          <Nav.Link as={Link} to="leadership">
-            Leadership
-          </Nav.Link>
-          <NavDropdown title="Ministries" id="basic-nav-dropdown">
-            <NavDropdown.Item as={Link} to="men">
-              Men
-            </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="women">
-              Women
-            </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="youth">
-              Youth
-            </NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link as={Link} to="contact">
-            Contact
-          </Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+      <div className="container">
+        <div className="navbar-header">
+          <button
+            type="button"
+            className="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+          >
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+          </button>
+          <a className="navbar-brand page-scroll navbar-logo" href="#page-top">
+            <img src={logo} alt="ICGC LOGO" />
+            JOY TEMPLE
+          </a>
+        </div>
+
+        <div
+          className="collapse navbar-collapse"
+          id="bs-example-navbar-collapse-1"
+        >
+          <ul className="nav navbar-nav navbar-right">
+            <li>
+              <a href="#features" className="page-scroll">
+                Meeting Days
+              </a>
+            </li>
+            <li>
+              <a href="#about" className="page-scroll">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#services" className="page-scroll">
+                Values
+              </a>
+            </li>
+            <li>
+              <a href="#portfolio" className="page-scroll">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a href="#testimonials" className="page-scroll">
+                Faith Statement
+              </a>
+            </li>
+            <li>
+              <a href="#team" className="page-scroll">
+                Leadership
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="page-scroll">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 }
 
-export default NavBar;
+export default Navbar;
