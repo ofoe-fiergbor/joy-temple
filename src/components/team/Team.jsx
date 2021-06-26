@@ -5,7 +5,7 @@ import img2 from "../../assets/team/02.jpg";
 
 function Team() {
   return (
-    <div id="team" className="text-center">
+    <div id="leadership" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet Our Leaders</h2>

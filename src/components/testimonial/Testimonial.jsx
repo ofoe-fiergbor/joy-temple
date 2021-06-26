@@ -8,7 +8,7 @@ import img6 from "../../assets/testimonials/06.jpg";
 
 function Testimonial() {
   return (
-    <div id="testimonials">
+    <div id="statement-of-faith">
       <div className="container">
         <div className="section-title text-center">
           <h2>Statement of Faith</h2>

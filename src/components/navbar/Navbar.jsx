@@ -29,7 +29,7 @@ function Navbar() {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
+              <a href="#meeting-days" className="page-scroll">
                 Meeting Days
               </a>
             </li>
@@ -39,22 +39,22 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
+              <a href="#values" className="page-scroll">
                 Values
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
+              <a href="#gallery" className="page-scroll">
                 Gallery
               </a>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
+              <a href="#statement-of-faith" className="page-scroll">
                 Faith Statement
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
+              <a href="#leadership" className="page-scroll">
                 Leadership
               </a>
             </li>

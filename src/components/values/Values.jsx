@@ -2,7 +2,7 @@ import React from "react";
 
 function Values() {
   return (
-    <div id="services" className="text-center">
+    <div id="values" className="text-center">
       <div className="container">
         <div className="section-title">
           <h2>Our Values</h2>

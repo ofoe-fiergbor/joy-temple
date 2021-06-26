@@ -34,7 +34,7 @@ function MiniGallery() {
   ]
 
   return (
-    <div id="portfolio" className="text-center">
+    <div id="gallery" className="text-center">
       <div className="container">
         <div className="section-title">
           <h2>Gallery</h2>
@@ -49,7 +49,6 @@ function MiniGallery() {
                 <div className="hover-bg">
                   <a
                     href={image.lg}
-                    title="Project Title"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
@@ -57,7 +56,7 @@ function MiniGallery() {
                     <img
                       src={image.sm}
                       className="img-responsive"
-                      alt="Project Title"
+                      alt="ICGC Joy Temple"
                     />
                   </a>
                 </div>

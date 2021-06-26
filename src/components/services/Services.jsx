@@ -3,7 +3,7 @@ import YoutubeEmbed from "./../youtubeEmbed/YoutubeEmbed";
 
 function Services() {
   return (
-    <div id="features" className="text-center">
+    <div id="meeting-days" className="text-center">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Meeting Days</h2>
