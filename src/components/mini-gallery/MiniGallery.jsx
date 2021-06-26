@@ -41,11 +41,11 @@ function MiniGallery() {
           
         </div>
         <div className="row">
-        <div className="portfolio-items">
+        <div className="gallery-items">
         {
          images.map((image, index)=> (
           <div key={index} className="col-sm-6 col-md-4 col-lg-4">
-              <div className="portfolio-item">
+              <div className="gallery-item">
                 <div className="hover-bg">
                   <a
                     href={image.lg}
