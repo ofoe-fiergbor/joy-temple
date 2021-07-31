@@ -27,7 +27,7 @@ function Team() {
             <div className="thumbnail">
               <img src={img2} alt="..." className="team-img" />
               <div className="caption">
-                <h4>Rev.Dr. Lokko</h4>
+                <h4>Dr. Rebbecca Love</h4>
                 <p>Assistant Pastor</p>
               </div>
             </div>

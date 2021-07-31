@@ -1,10 +1,10 @@
 import React from "react";
-import img1 from "../../assets/testimonials/01.jpg";
-import img2 from "../../assets/testimonials/02.jpg";
-import img3 from "../../assets/testimonials/03.jpg";
-import img4 from "../../assets/testimonials/04.jpg";
-import img5 from "../../assets/testimonials/05.jpg";
-import img6 from "../../assets/testimonials/06.jpg";
+// import img1 from "../../assets/testimonials/01.jpg";
+// import img2 from "../../assets/testimonials/02.jpg";
+// import img3 from "../../assets/testimonials/03.jpg";
+// import img4 from "../../assets/testimonials/04.jpg";
+// import img5 from "../../assets/testimonials/05.jpg";
+// import img6 from "../../assets/testimonials/06.jpg";
 
 function Testimonial() {
   return (
@@ -18,7 +18,7 @@ function Testimonial() {
             <div className="testimonial">
               <div className="testimonial-image">
                 {" "}
-                <img src={img1} alt="" />{" "}
+                {/* <img src={img1} alt="" />{" "} */}
               </div>
               <div className="testimonial-content">
                 <p>
@@ -33,7 +33,7 @@ function Testimonial() {
             <div className="testimonial">
               <div className="testimonial-image">
                 {" "}
-                <img src={img2} alt="" />{" "}
+                {/* <img src={img2} alt="" />{" "} */}
               </div>
               <div className="testimonial-content">
                 <p>
@@ -47,7 +47,7 @@ function Testimonial() {
             <div className="testimonial">
               <div className="testimonial-image">
                 {" "}
-                <img src={img3} alt="" />{" "}
+                {/* <img src={img3} alt="" />{" "} */}
               </div>
               <div className="testimonial-content">
                 <p>
@@ -65,7 +65,7 @@ function Testimonial() {
             <div className="testimonial">
               <div className="testimonial-image">
                 {" "}
-                <img src={img4} alt="" />{" "}
+                {/* <img src={img4} alt="" />{" "} */}
               </div>
               <div className="testimonial-content">
                 <p>
@@ -79,7 +79,7 @@ function Testimonial() {
             <div className="testimonial">
               <div className="testimonial-image">
                 {" "}
-                <img src={img5} alt="" />{" "}
+                {/* <img src={img5} alt="" />{" "} */}
               </div>
               <div className="testimonial-content">
                 <p>
@@ -93,7 +93,7 @@ function Testimonial() {
           <div className="col-md-4">
             <div className="testimonial">
               <div className="testimonial-image">
-                <img src={img6} alt="" />{" "}
+                {/* <img src={img6} alt="" />{" "} */}
               </div>
               <div className="testimonial-content">
                 <p>
