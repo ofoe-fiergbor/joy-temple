@@ -1,36 +1,27 @@
 import React from "react";
-import lgImg1 from "../../assets/portfolio/01-large.jpg";
-import lgImg2 from "../../assets/portfolio/02-large.jpg";
-import lgImg3 from "../../assets/portfolio/03-large.jpg";
-import lgImg4 from "../../assets/portfolio/04-large.jpg";
-import lgImg5 from "../../assets/portfolio/05-large.jpg";
-import lgImg6 from "../../assets/portfolio/06-large.jpg";
-import lgImg7 from "../../assets/portfolio/07-large.jpg";
-import lgImg8 from "../../assets/portfolio/08-large.jpg";
-import lgImg9 from "../../assets/portfolio/09-large.jpg";
 
-import smImg1 from "../../assets/portfolio/01-small.jpg";
-import smImg2 from "../../assets/portfolio/02-small.jpg";
-import smImg3 from "../../assets/portfolio/03-small.jpg";
-import smImg4 from "../../assets/portfolio/04-small.jpg";
-import smImg5 from "../../assets/portfolio/05-small.jpg";
-import smImg6 from "../../assets/portfolio/06-small.jpg";
-import smImg7 from "../../assets/portfolio/07-small.jpg";
-import smImg8 from "../../assets/portfolio/08-small.jpg";
-import smImg9 from "../../assets/portfolio/09-small.jpg";
+import image1 from "../../assets/portfolio/image1.jpeg"
+import image2 from "../../assets/portfolio/image2.jpeg";
+import image3 from "../../assets/portfolio/image3.jpeg";
+import image4 from "../../assets/portfolio/image4.jpg";
+import image5 from "../../assets/portfolio/image5.jpg";
+import image6 from "../../assets/portfolio/image6.jpeg";
+import image7 from "../../assets/portfolio/image7.jpeg";
+import image8 from "../../assets/portfolio/image8.jpg";
+import image9 from "../../assets/portfolio/image9.jpg";
 
 function MiniGallery() {
 
   const images = [
-    {lg: lgImg1, sm:smImg1 },
-    {lg: lgImg2, sm:smImg2 },
-    {lg: lgImg3, sm:smImg3 },
-    {lg: lgImg4, sm:smImg4 },
-    {lg: lgImg5, sm:smImg5 },
-    {lg: lgImg6, sm:smImg6 },
-    {lg: lgImg7, sm:smImg7 },
-    {lg: lgImg8, sm:smImg8 },
-    {lg: lgImg9, sm:smImg9 },
+    {lg: image1, sm:image1 },
+    {lg: image2, sm:image2 },
+    {lg: image3, sm:image3 },
+    {lg: image4, sm:image4 },
+    {lg: image5, sm:image5 },
+    {lg: image6, sm:image6 },
+    {lg: image7, sm:image7 },
+    {lg: image8, sm:image8 },
+    {lg: image9, sm:image9 },
   ]
 
   return (

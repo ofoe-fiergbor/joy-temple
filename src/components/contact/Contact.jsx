@@ -68,7 +68,7 @@ function Contact() {
             <h3>Contact Info</h3>
             <p>
               <span>
-                <i className="fa fa-map-marker"></i> Address
+                <i className="fa fa-map-marker"></i> Location
               </span>
               Adjacent St.Monica School,
               <br />
