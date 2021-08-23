@@ -14,7 +14,7 @@ function Contact() {
               </p>
             </div>
             <form
-              action="https://formsubmit.co/27f5522deab9f9bb86d42c38442de305   "
+              action="https://formsubmit.co/icgcjoykaneshie@gmail.com"
               method="POST"
               name="sentMessage"
               id="contactForm"
@@ -88,7 +88,7 @@ function Contact() {
               <span>
                 <i className="fa fa-envelope-o"></i> Email
               </span>
-              info@icgcjoytemple.com
+              icgcjoykaneshie@gmail.com
             </p>
           </div>
         </div>
