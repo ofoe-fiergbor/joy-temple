@@ -14,7 +14,7 @@ function Contact() {
               </p>
             </div>
             <form
-              action="https://formsubmit.co/icgcjoykaneshie@gmail.com"
+              action="https://formsubmit.co/7b165c47e83c033ff28262734f954b24"
               method="POST"
               name="sentMessage"
               id="contactForm"
