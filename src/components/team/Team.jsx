@@ -2,7 +2,6 @@ import React from "react";
 import img1 from "../../assets/team/01.jpg";
 import img2 from "../../assets/team/02.jpg";
 
-
 function Team() {
   return (
     <div id="leadership" className="text-center">
@@ -10,7 +9,8 @@ function Team() {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet Our Leaders</h2>
           <p>
-          “But among you it will be different. Whoever wants to be a leader among you must be your servant.” Matthew 20:26
+            “But among you it will be different. Whoever wants to be a leader
+            among you must be your servant.” Matthew 20:26
           </p>
         </div>
         <div id="row">

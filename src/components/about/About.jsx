@@ -7,7 +7,6 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6 ">
-           
             <img src={img} className="img-responsive" alt="" />
           </div>
           <div className="col-xs-12 col-md-6">

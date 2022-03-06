@@ -1,10 +1,4 @@
 import React from "react";
-// import img1 from "../../assets/testimonials/01.jpg";
-// import img2 from "../../assets/testimonials/02.jpg";
-// import img3 from "../../assets/testimonials/03.jpg";
-// import img4 from "../../assets/testimonials/04.jpg";
-// import img5 from "../../assets/testimonials/05.jpg";
-// import img6 from "../../assets/testimonials/06.jpg";
 
 function Testimonial() {
   return (

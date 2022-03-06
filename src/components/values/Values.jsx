@@ -50,7 +50,6 @@ function Values() {
             </div>
           </div>
           <div className="col-md-4">
-           
             <i className="fa fa-globe"></i>
             <div className="service-desc">
               <h3>Our Logo</h3>
@@ -67,8 +66,9 @@ function Values() {
             <div className="service-desc">
               <h3>Statement of faith</h3>
               <p>
-                <b>We believe...</b> that there is one God, eternally existent in three
-                persons: God the Father, God the Son, and God the Holy Spirit.
+                <b>We believe...</b> that there is one God, eternally existent
+                in three persons: God the Father, God the Son, and God the Holy
+                Spirit.
               </p>
             </div>
           </div>

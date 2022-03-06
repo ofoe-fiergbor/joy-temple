@@ -8,7 +8,7 @@ function Header() {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-                <h1>
+                {/* <h1>
                   The Joy Temple
                 </h1>
                 <p>
@@ -16,7 +16,7 @@ function Header() {
                   Evangelical, Charismatic Christian Church.
                 </p>
 
-                {/* <i className="fa fa-play" aria-hidden="true"></i> */}
+                <i className="fa fa-play" aria-hidden="true"></i> */}
               </div>
             </div>
           </div>
